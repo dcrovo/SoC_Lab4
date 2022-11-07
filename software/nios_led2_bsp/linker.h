@@ -4,7 +4,7 @@
  * Machine generated for CPU 'cpu' in SOPC Builder design 'nios_led2'
  * SOPC Builder design path: ../../nios_led2.sopcinfo
  *
- * Generated: Sun Nov 06 22:17:31 COT 2022
+ * Generated: Mon Nov 07 00:21:32 COT 2022
  */
 
 /*
@@ -65,9 +65,9 @@
  *
  */
 
-#define ONCHIP_MEM_REGION_BASE 0x8020
-#define ONCHIP_MEM_REGION_SPAN 20448
-#define RESET_REGION_BASE 0x8000
+#define ONCHIP_MEM_REGION_BASE 0x20020
+#define ONCHIP_MEM_REGION_SPAN 131040
+#define RESET_REGION_BASE 0x20000
 #define RESET_REGION_SPAN 32
 
 

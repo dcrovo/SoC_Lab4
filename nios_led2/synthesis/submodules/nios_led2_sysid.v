@@ -49,7 +49,7 @@ module nios_led2_sysid (
 
   wire    [ 31: 0] readdata;
   //control_slave, which is an e_avalon_slave
-  assign readdata = address ? 1667428113 : 0;
+  assign readdata = address ? 1667798332 : 0;
 
 endmodule
 

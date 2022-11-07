@@ -3,7 +3,7 @@
 # Machine generated for CPU 'cpu' in SOPC Builder design 'nios_led2'
 # SOPC Builder design path: ../../nios_led2.sopcinfo
 #
-# Generated: Sun Nov 06 22:17:31 COT 2022
+# Generated: Mon Nov 07 00:21:32 COT 2022
 
 # DO NOT MODIFY THIS FILE
 #
@@ -47,4 +47,4 @@
 # by allowing GDB to cache memory contents on the host.
 
 # onchip_mem
-memory 0x8000 0xd000 cache
+memory 0x20000 0x40000 cache

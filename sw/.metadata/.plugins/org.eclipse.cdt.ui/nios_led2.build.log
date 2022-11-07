@@ -1,6 +1,9 @@
-22:17:33 **** Clean-only build of configuration Nios II for project nios_led2 ****
-make clean 
-[nios_led2 clean complete]
+00:49:17 **** Incremental Build of configuration Nios II for project nios_led2 ****
+make all 
+Info: Building ../nios_led2_bsp/
+make --no-print-directory -C ../nios_led2_bsp/
+[BSP build complete]
+[nios_led2 build complete]
 
-22:17:33 Build Finished (took 114ms)
+00:49:17 Build Finished (took 116ms)
 

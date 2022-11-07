@@ -1,5 +1,5 @@
 Flow report for nios_led2
-Wed Nov  2 17:48:43 2022
+Mon Nov  7 00:20:59 2022
 Quartus Prime Version 21.1.1 Build 850 06/23/2022 SJ Lite Edition
 
 
@@ -41,18 +41,18 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Wed Nov  2 17:48:43 2022       ;
+; Flow Status                     ; Successful - Mon Nov  7 00:20:59 2022       ;
 ; Quartus Prime Version           ; 21.1.1 Build 850 06/23/2022 SJ Lite Edition ;
 ; Revision Name                   ; nios_led2                                   ;
 ; Top-level Entity Name           ; nios_led2_top                               ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1,117 / 32,070 ( 3 % )                      ;
-; Total registers                 ; 1473                                        ;
+; Logic utilization (in ALMs)     ; 1,145 / 32,070 ( 4 % )                      ;
+; Total registers                 ; 1476                                        ;
 ; Total pins                      ; 53 / 457 ( 12 % )                           ;
 ; Total virtual pins              ; 0                                           ;
-; Total block memory bits         ; 175,104 / 4,065,280 ( 4 % )                 ;
+; Total block memory bits         ; 1,059,840 / 4,065,280 ( 26 % )              ;
 ; Total DSP Blocks                ; 0 / 87 ( 0 % )                              ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/02/2022 17:47:30 ;
+; Start date & time ; 11/07/2022 00:19:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; nios_led2           ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+-------------------------------------------------------------+---------------+---------------+-----------------------------------+
 ; Assignment Name                     ; Value                                                       ; Default Value ; Entity Name   ; Section Id                        ;
 +-------------------------------------+-------------------------------------------------------------+---------------+---------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 259684876166833.166742925047564                             ; --            ; --            ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 259684876166833.166779838205618                             ; --            ; --            ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                                         ; --            ; --            ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                                         ; --            ; --            ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                                         ; --            ; --            ; eda_board_design_signal_integrity ;
@@ -99,7 +99,7 @@ https://fpgasoftware.intel.com/eula.
 ; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                ; --            ; --            ; --                                ;
 ; SLD_FILE                            ; nios_led2/synthesis/nios_led2.regmap                        ; --            ; --            ; --                                ;
 ; SLD_FILE                            ; nios_led2/synthesis/nios_led2.debuginfo                     ; --            ; --            ; --                                ;
-; SLD_INFO                            ; QSYS_NAME nios_led2 HAS_SOPCINFO 1 GENERATION_ID 1667428113 ; --            ; --            ; --                                ;
+; SLD_INFO                            ; QSYS_NAME nios_led2 HAS_SOPCINFO 1 GENERATION_ID 1667798332 ; --            ; --            ; --                                ;
 ; SOPCINFO_FILE                       ; nios_led2/synthesis/../../nios_led2.sopcinfo                ; --            ; --            ; --                                ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                          ; --            ; --            ; --                                ;
 ; TOP_LEVEL_ENTITY                    ; nios_led2_top                                               ; nios_led2     ; --            ; --                                ;
@@ -111,12 +111,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 886 MB              ; 00:00:39                           ;
-; Fitter               ; 00:00:37     ; 1.2                     ; 2495 MB             ; 00:01:59                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 765 MB              ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:05     ; 2.1                     ; 1186 MB             ; 00:00:09                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 932 MB              ; 00:00:02                           ;
-; Total                ; 00:01:06     ; --                      ; --                  ; 00:02:54                           ;
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 891 MB              ; 00:00:36                           ;
+; Fitter               ; 00:00:41     ; 1.2                     ; 2528 MB             ; 00:02:01                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 754 MB              ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:05     ; 2.3                     ; 1199 MB             ; 00:00:11                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 937 MB              ; 00:00:02                           ;
+; Total                ; 00:01:10     ; --                      ; --                  ; 00:02:55                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
