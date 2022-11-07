@@ -109,3 +109,591 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 
 !ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 00:49:19.252
 !MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:02:57.091
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:02:57.252
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:02:58.484
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:37.082
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:37.234
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:38.465
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:46.046
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:46.299
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:47.525
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:56.564
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:56.712
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:03:57.940
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:06.765
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:06.915
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:08.141
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:14.926
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:15.080
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:16.308
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:19.467
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:19.617
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:20.840
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:23.425
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:23.579
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:24.807
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:30.812
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:30.964
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:04:32.189
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:05:00.736
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:05:00.890
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:05:02.121
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:06:46.425
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:06:46.585
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:06:47.818
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:06:56.729
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:06:56.983
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:06:58.213
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:08:36.231
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:08:36.386
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:08:37.618
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:08:51.219
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:08:51.365
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:08:52.594
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:03.292
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:03.464
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:04.695
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:38.517
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:38.674
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:39.907
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:55.980
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:56.188
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:09:57.420
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:10:40.028
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:10:40.186
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:10:41.419
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:10:47.682
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:10:47.831
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:10:49.063
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:12:51.902
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:12:52.062
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:12:53.293
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:12:58.136
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:12:58.290
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:12:59.521
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:13:13.471
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:13:13.632
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:13:14.946
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-11-07 01:13:18.921
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2022-11-07 01:13:18.930
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:13:43.269
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:13:44.767
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:14:57.183
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:14:58.428
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:15:36.232
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:15:38.030
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:16:59.516
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:01.399
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:07.799
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:07.949
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:09.185
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:17.912
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:18.063
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:19.299
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:27.062
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:27.213
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:28.451
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:35.565
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:35.714
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:17:36.951
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:04.082
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:04.246
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:05.485
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:16.884
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:17.037
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:18.277
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:24.185
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:24.335
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:23:25.572
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:27.610
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:27.776
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:29.021
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:35.470
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:35.621
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:36.857
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:41.090
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:41.241
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:42.478
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:46.059
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:46.209
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:47.447
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:51.239
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:51.388
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:52.628
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:56.172
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:56.323
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:26:57.565
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:27:42.970
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:27:43.128
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:27:44.368
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:27:49.473
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:27:49.627
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:27:50.864
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:28:15.861
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:28:16.029
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:28:17.267
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:28:54.699
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:28:55.250
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:28:56.505
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:32:18.459
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:32:19.698
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:40:20.730
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:40:21.978
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:41:22.058
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:41:23.309
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:48:16.704
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:48:17.947
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:48:27.069
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:48:27.230
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:48:28.472
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:49:35.432
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:49:36.675
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:50:17.578
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:50:18.823
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:53:08.217
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:53:09.468
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:53:26.887
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:53:27.051
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:53:28.301
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:54:04.899
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:54:06.143
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:54:31.972
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:54:32.127
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:54:33.372
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:55:17.909
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:55:19.153
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:56:57.343
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:56:58.594
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:57:04.848
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:57:05.005
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 01:57:06.250
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:05:12.335
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:05:12.490
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:05:13.742
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:06.239
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:06.398
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:07.646
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:52.027
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:53.276
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:57.907
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:58.055
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:06:59.302
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:07:38.989
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:07:39.145
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:07:40.394
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:00.947
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:01.111
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:02.363
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:07.811
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:07.959
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:09.207
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:18.947
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:19.096
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:20.346
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:24.070
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:24.223
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:25.472
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:34.402
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [3-4]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:34.554
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --stop --sidp=0x41110 --id=0x0 --timestamp=1667798332]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2022-11-07 02:08:35.803
+!MESSAGE Executing: [/bin/bash, -c, nios2-download '--cable=DE-SoC on localhost [3-4]' --device=2 --instance=0 --go --sidp=0x41110 --id=0x0 --timestamp=1667798332 /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/software/nios_led2/nios_led2.elf]

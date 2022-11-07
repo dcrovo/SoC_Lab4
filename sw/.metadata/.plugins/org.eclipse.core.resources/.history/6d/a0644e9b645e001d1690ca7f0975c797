@@ -1,0 +1,60 @@
+/*
+ * gpio.h
+ *
+ *  Created on: Nov 6, 2022
+ *      Author: danielcrovo
+ */
+
+#ifndef GPIO_H_
+#define GPIO_H_
+
+#include "alt_types.h"
+#include "io.h"
+/*\
+ * 	Constant definition
+ */
+#define PIO_DATA_REG_OFT	0			//data register addr offset
+#define PIO_DIRT_REG_OFT	1			//direction register addr offset
+#define PIO_INTM_REG_OFT	2			//interrupt register addr offset
+#define PIO_EDGE_REG_OFT	3			//edge capture register addr offset
+#define JUART_DATA_REG_OFT	0			//data register addr offset
+#define JUART_CTRL_REG_OFT	1			//control register addr offset
+#define JUART_WSPA_MSK		0xffff0000	//mask
+#define JUART_WSPA_BIT_OFT	16			//bit offset
+#define TIMER_STAT_REG_OFT	0			// status register addr offset
+#define TIMER_CTRL_REG_OFT	0			// control register addr offset
+#define TIMER_PRDL_REG_OFT	0			// period low register addr offset
+#define TIMER_PRDH_REG_OFT	0			// period high register addr offset
+
+
+/*
+ *  macro definitions
+ */
+
+// read/write PIO data register
+#define pio_read(base) IORD(base, PIO_DATA_REG_OFT)
+#define pio_write(base, data) IOWR(base, PIO_DATA_REG_OFT, data)
+//read/clear pushbutton edge capture register
+//must write 0xF if the write-individual bit option is used in Qsys
+#define btn_read(base) IORD(base, PIO_EDGE_REG_OFT)
+#define btn_clear(base) IOWR(base, PIO_EDGE_REG_OFT, 0xF)
+#define btn_is_pressed(base) (IORD(base, PIO_EDGE_REG_OFT)!=0)
+// check # slots available in FIFO buffer
+#define jtaguart_rd_wspace(base) ((IORD(base, JUART_CTRL_REG_OFT) & 0xffff0000) >> 16)
+// write an 8-bit char
+#define jtaguart_wr_ch(base, data) IOWR(base, JUART_DATA_REG_OFT, data & 0x000000ff)
+#define timer_read_tick(base) (IORD(base, TIMER_STAT_REG_OFT) & 0x01)
+#define timer_clear_tick(base) IOWR(base, TIMER_STAT_REG_OFT, 0)
+
+
+/*
+ * function prototypes
+ */
+
+alt_u8 sseg_conv_hex(int hex);
+void sseg_disp_ptn(alt_u32 base, alt_u8 *ptn);
+void jtaguart_wr_str(alt_u32 jtag_base, char* msg);
+void timer_wr_prd(alt_u32 timer_base, alt_u32 prd);
+
+
+#endif /* GPIO_H_ */

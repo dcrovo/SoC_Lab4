@@ -14,11 +14,12 @@ int main()
 	cmd_type sw_cmd={0,100}; //initial value: not pause, 100 ms interval
 	flashsys_init_v1(BTN_BASE, USR_TIMER_BASE);
 
+
 	while(1){
 		sw_get_command_v1(BTN_BASE, SWITCH_BASE, &sw_cmd);
 		jtaguart_disp_msg_v1(JTAG_UART_BASE, sw_cmd);
 		sseg_disp_msg_v1(SSEG_BASE, sw_cmd);
-		//led_flash_v1(LEDF_BASE, USR_TIMER_BASE, sw_cmd);
+		led_flash_v1(LEDR_BASE, USR_TIMER_BASE, sw_cmd);
 	}
   return 0;
 }
@@ -35,10 +36,15 @@ void sw_get_command_v1(alt_u32 btn_base, alt_32 sw_base, cmd_type *cmd){
 	if(btn != 0){ // button pressed
 		if(btn & 0x01){ // btn 0 pressed
 			cmd->pause = cmd->pause ^ 1; // toogle pause bit
+			printf("%s", "0 preessed\n");
+			btn_clear(btn_base); //clear edge-capture reg
+
 		}
 		if (btn & 0x02){ //btn 1 pressed
 			cmd->prd = pio_read(sw_base) & 0x03FF; // load new interval
 			btn_clear(btn_base); //clear edge-capture reg
+			printf("%s", "1 preessed\n");
+
 		}
 	}
 }
@@ -80,3 +86,22 @@ void sseg_disp_msg_v1(alt_u32 sseg_base, cmd_type cmd){
 	}
 	sseg_disp_ptn(sseg_base, msg);
 }
+
+void led_flash_v1(alt_u32 led_base, alt_u32 timer_base, cmd_type cmd){
+
+	static alt_u8 led_pattern = 0x01;
+	int ntick=0;
+	if(cmd.pause){ // no toggle if paused asserted
+		return;
+	}
+	led_pattern ^= 0x03; //toggle 2 LSBs of LEDs
+	pio_write(led_base, led_pattern); // write LEDs
+
+	while(ntick < cmd.prd){
+		if(timer_read_tick(timer_base) == 1){
+			timer_clear_tick(timer_base);
+			ntick++;
+		}
+	}
+}
+
