@@ -1,0 +1,138 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/nios_led2.qsys --block-symbol-file --output-directory=/home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/nios_led2 --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Lab4_SoC/nios_led2.qsys
+Progress: Reading input file
+Progress: Adding btn [altera_avalon_pio 21.1]
+Progress: Parameterizing module btn
+Progress: Adding clk_0 [clock_source 21.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 21.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 21.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding ledr [altera_avalon_pio 21.1]
+Progress: Parameterizing module ledr
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 21.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sseg [altera_avalon_pio 21.1]
+Progress: Parameterizing module sseg
+Progress: Adding switch [altera_avalon_pio 21.1]
+Progress: Parameterizing module switch
+Progress: Adding sys_timer [altera_avalon_timer 21.1]
+Progress: Parameterizing module sys_timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 21.1]
+Progress: Parameterizing module sysid
+Progress: Adding usr_timer [altera_avalon_timer 21.1]
+Progress: Parameterizing module usr_timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_led2.btn: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_led2.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_led2.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_led2.sysid: Time stamp will be automatically updated when this component is generated.
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/nios_led2.qsys --synthesis=VHDL --output-directory=/home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/nios_led2/synthesis --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Lab4_SoC/nios_led2.qsys
+Progress: Reading input file
+Progress: Adding btn [altera_avalon_pio 21.1]
+Progress: Parameterizing module btn
+Progress: Adding clk_0 [clock_source 21.1]
+Progress: Parameterizing module clk_0
+Progress: Adding cpu [altera_nios2_gen2 21.1]
+Progress: Parameterizing module cpu
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 21.1]
+Progress: Parameterizing module jtag_uart
+Progress: Adding ledr [altera_avalon_pio 21.1]
+Progress: Parameterizing module ledr
+Progress: Adding onchip_mem [altera_avalon_onchip_memory2 21.1]
+Progress: Parameterizing module onchip_mem
+Progress: Adding sseg [altera_avalon_pio 21.1]
+Progress: Parameterizing module sseg
+Progress: Adding switch [altera_avalon_pio 21.1]
+Progress: Parameterizing module switch
+Progress: Adding sys_timer [altera_avalon_timer 21.1]
+Progress: Parameterizing module sys_timer
+Progress: Adding sysid [altera_avalon_sysid_qsys 21.1]
+Progress: Parameterizing module sysid
+Progress: Adding usr_timer [altera_avalon_timer 21.1]
+Progress: Parameterizing module usr_timer
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nios_led2.btn: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: nios_led2.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_led2.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_led2.sysid: Time stamp will be automatically updated when this component is generated.
+Info: nios_led2: Generating nios_led2 "nios_led2" for QUARTUS_SYNTH
+Info: btn: Starting RTL generation for module 'nios_led2_btn'
+Info: btn:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_led2_btn --dir=/tmp/alt9298_5071481694550241407.dir/0002_btn_gen/ --quartus_dir=/home/danielcrovo/intelFPGA_lite/21.1/quartus --verilog --config=/tmp/alt9298_5071481694550241407.dir/0002_btn_gen//nios_led2_btn_component_configuration.pl  --do_build_sim=0  ]
+Info: btn: Done RTL generation for module 'nios_led2_btn'
+Info: btn: "nios_led2" instantiated altera_avalon_pio "btn"
+Info: cpu: "nios_led2" instantiated altera_nios2_gen2 "cpu"
+Info: jtag_uart: Starting RTL generation for module 'nios_led2_jtag_uart'
+Info: jtag_uart:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=nios_led2_jtag_uart --dir=/tmp/alt9298_5071481694550241407.dir/0003_jtag_uart_gen/ --quartus_dir=/home/danielcrovo/intelFPGA_lite/21.1/quartus --verilog --config=/tmp/alt9298_5071481694550241407.dir/0003_jtag_uart_gen//nios_led2_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'nios_led2_jtag_uart'
+Info: jtag_uart: "nios_led2" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: ledr: Starting RTL generation for module 'nios_led2_ledr'
+Info: ledr:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_led2_ledr --dir=/tmp/alt9298_5071481694550241407.dir/0004_ledr_gen/ --quartus_dir=/home/danielcrovo/intelFPGA_lite/21.1/quartus --verilog --config=/tmp/alt9298_5071481694550241407.dir/0004_ledr_gen//nios_led2_ledr_component_configuration.pl  --do_build_sim=0  ]
+Info: ledr: Done RTL generation for module 'nios_led2_ledr'
+Info: ledr: "nios_led2" instantiated altera_avalon_pio "ledr"
+Info: onchip_mem: Starting RTL generation for module 'nios_led2_onchip_mem'
+Info: onchip_mem:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=nios_led2_onchip_mem --dir=/tmp/alt9298_5071481694550241407.dir/0005_onchip_mem_gen/ --quartus_dir=/home/danielcrovo/intelFPGA_lite/21.1/quartus --verilog --config=/tmp/alt9298_5071481694550241407.dir/0005_onchip_mem_gen//nios_led2_onchip_mem_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_mem: Done RTL generation for module 'nios_led2_onchip_mem'
+Info: onchip_mem: "nios_led2" instantiated altera_avalon_onchip_memory2 "onchip_mem"
+Info: sseg: Starting RTL generation for module 'nios_led2_sseg'
+Info: sseg:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=nios_led2_sseg --dir=/tmp/alt9298_5071481694550241407.dir/0006_sseg_gen/ --quartus_dir=/home/danielcrovo/intelFPGA_lite/21.1/quartus --verilog --config=/tmp/alt9298_5071481694550241407.dir/0006_sseg_gen//nios_led2_sseg_component_configuration.pl  --do_build_sim=0  ]
+Info: sseg: Done RTL generation for module 'nios_led2_sseg'
+Info: sseg: "nios_led2" instantiated altera_avalon_pio "sseg"
+Info: sys_timer: Starting RTL generation for module 'nios_led2_sys_timer'
+Info: sys_timer:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64//perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64//perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/common -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=nios_led2_sys_timer --dir=/tmp/alt9298_5071481694550241407.dir/0007_sys_timer_gen/ --quartus_dir=/home/danielcrovo/intelFPGA_lite/21.1/quartus --verilog --config=/tmp/alt9298_5071481694550241407.dir/0007_sys_timer_gen//nios_led2_sys_timer_component_configuration.pl  --do_build_sim=0  ]
+Info: sys_timer: Done RTL generation for module 'nios_led2_sys_timer'
+Info: sys_timer: "nios_led2" instantiated altera_avalon_timer "sys_timer"
+Info: sysid: "nios_led2" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_008: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_009: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "nios_led2" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "nios_led2" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "nios_led2" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'nios_led2_cpu_cpu'
+Info: cpu:   Generation command is [exec /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64//perl/bin/perl -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64//perl/lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin/europa -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/sopc_builder/bin -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- /home/danielcrovo/intelFPGA_lite/21.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=nios_led2_cpu_cpu --dir=/tmp/alt9298_5071481694550241407.dir/0011_cpu_gen/ --quartus_bindir=/home/danielcrovo/intelFPGA_lite/21.1/quartus/linux64/ --verilog --config=/tmp/alt9298_5071481694550241407.dir/0011_cpu_gen//nios_led2_cpu_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2022.11.02 16:48:04 (*) Starting Nios II generation
+Info: cpu: # 2022.11.02 16:48:04 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.11.02 16:48:04 (*)   Creating all objects for CPU
+Info: cpu: # 2022.11.02 16:48:04 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.11.02 16:48:04 (*)   Creating plain-text RTL
+Info: cpu: # 2022.11.02 16:48:05 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'nios_led2_cpu_cpu'
+Info: cpu: "cpu" instantiated altera_nios2_gen2_unit "cpu"
+Info: cpu_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "cpu_data_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: cpu_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "cpu_data_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: jtag_uart_avalon_jtag_slave_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "jtag_uart_avalon_jtag_slave_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file /home/danielcrovo/Documents/Daniel/01.Study/01.MScEE/02.Semester2/SoC/Lab4_SoC/nios_led2/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: nios_led2: Done "nios_led2" with 26 modules, 39 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

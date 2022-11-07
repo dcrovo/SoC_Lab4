@@ -1,0 +1,29 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst nios_led2.cpu -pg 1 -lvl 2 -y 290
+preplace inst nios_led2 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst nios_led2.ledr -pg 1 -lvl 3 -y 810
+preplace inst nios_led2.sysid -pg 1 -lvl 3 -y 530
+preplace inst nios_led2.jtag_uart -pg 1 -lvl 3 -y 150
+preplace inst nios_led2.cpu.reset_bridge -pg 1
+preplace inst nios_led2.usr_timer -pg 1 -lvl 3 -y 350
+preplace inst nios_led2.onchip_mem -pg 1 -lvl 3 -y 450
+preplace inst nios_led2.clk_0 -pg 1 -lvl 1 -y 310
+preplace inst nios_led2.cpu.clock_bridge -pg 1
+preplace inst nios_led2.sys_timer -pg 1 -lvl 3 -y 250
+preplace inst nios_led2.sseg -pg 1 -lvl 3 -y 610
+preplace inst nios_led2.cpu.cpu -pg 1
+preplace inst nios_led2.switch -pg 1 -lvl 3 -y 710
+preplace inst nios_led2.btn -pg 1 -lvl 3 -y 30
+preplace netloc INTERCONNECT<net_container>nios_led2</net_container>(SLAVE)onchip_mem.reset1,(MASTER)clk_0.clk_reset,(SLAVE)switch.reset,(SLAVE)ledr.reset,(SLAVE)jtag_uart.reset,(SLAVE)cpu.reset,(SLAVE)sysid.reset,(MASTER)cpu.debug_reset_request,(SLAVE)sseg.reset,(SLAVE)btn.reset,(SLAVE)sys_timer.reset,(SLAVE)usr_timer.reset) 1 1 2 280 230 720
+preplace netloc EXPORT<net_container>nios_led2</net_container>(SLAVE)nios_led2.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>nios_led2</net_container>(SLAVE)nios_led2.sseg,(SLAVE)sseg.external_connection) 1 0 3 NJ 640 NJ 640 NJ
+preplace netloc EXPORT<net_container>nios_led2</net_container>(SLAVE)switch.external_connection,(SLAVE)nios_led2.switch) 1 0 3 NJ 740 NJ 740 NJ
+preplace netloc EXPORT<net_container>nios_led2</net_container>(SLAVE)nios_led2.ledr,(SLAVE)ledr.external_connection) 1 0 3 NJ 840 NJ 840 NJ
+preplace netloc EXPORT<net_container>nios_led2</net_container>(SLAVE)nios_led2.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>nios_led2</net_container>(SLAVE)usr_timer.irq,(SLAVE)jtag_uart.irq,(SLAVE)sys_timer.irq,(MASTER)cpu.irq,(SLAVE)btn.irq) 1 2 1 700
+preplace netloc INTERCONNECT<net_container>nios_led2</net_container>(MASTER)cpu.instruction_master,(SLAVE)switch.s1,(SLAVE)onchip_mem.s1,(SLAVE)sys_timer.s1,(SLAVE)cpu.debug_mem_slave,(SLAVE)sseg.s1,(SLAVE)btn.s1,(SLAVE)sysid.control_slave,(SLAVE)ledr.s1,(MASTER)cpu.data_master,(SLAVE)jtag_uart.avalon_jtag_slave,(SLAVE)usr_timer.s1) 1 1 2 300 250 660
+preplace netloc EXPORT<net_container>nios_led2</net_container>(SLAVE)nios_led2.btn,(SLAVE)btn.external_connection) 1 0 3 NJ 60 NJ 60 NJ
+preplace netloc FAN_OUT<net_container>nios_led2</net_container>(SLAVE)sys_timer.clk,(SLAVE)jtag_uart.clk,(SLAVE)btn.clk,(SLAVE)switch.clk,(SLAVE)usr_timer.clk,(SLAVE)sysid.clk,(SLAVE)sseg.clk,(SLAVE)cpu.clk,(SLAVE)onchip_mem.clk1,(SLAVE)ledr.clk,(MASTER)clk_0.clk) 1 1 2 260 210 680
+levelinfo -pg 1 0 50 910
+levelinfo -hier nios_led2 60 90 420 750 900
