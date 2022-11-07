@@ -16,7 +16,7 @@ int main()
 
 
 	while(1){
-		sw_get_command_v1(BTN_BASE, SWITCH_BASE, &sw_cmd, JTAG_UART_BASE);
+		sw_get_command_v1(BTN_BASE, SWITCH_BASE, &sw_cmd);
 		jtaguart_disp_msg_v1(JTAG_UART_BASE, sw_cmd);
 		sseg_disp_msg_v1(SSEG_BASE, sw_cmd);
 		led_flash_v1(LEDR_BASE, USR_TIMER_BASE, sw_cmd);
@@ -30,7 +30,7 @@ void flashsys_init_v1(alt_u32 btn_base, alt_u32 timer_base){
 	timer_wr_prd(timer_base, 50000); // set 1-ms timeout period
 }
 
-void sw_get_command_v1(alt_u32 btn_base, alt_32 sw_base, cmd_type *cmd, alt_u32 jtag_base){
+void sw_get_command_v1(alt_u32 btn_base, alt_32 sw_base, cmd_type *cmd){
 	alt_u8 btn;
 	btn = (alt_u8) btn_read(btn_base) & 0xF; //read 4 pushbuttons
 	if(btn != 0){ // button pressed
@@ -45,16 +45,18 @@ void sw_get_command_v1(alt_u32 btn_base, alt_32 sw_base, cmd_type *cmd, alt_u32 
 			btn_clear(btn_base); //clear edge-capture reg
 			//printf("%s", "1 preessed\n");
 		}
-		if (btn & 0x04){ //btn 1 pressed
-			int new_prd;
+		if (btn & 0x10){ //btn 1 pressed
+			cmd->prd = pio_read(sw_base) & 0x03FF; // load new interval
 			printf("%s", "Type new interval");
-			scanf("%d", &new_prd);
+			int new_prd =0;
+			scanf("%d", new_prd);
+			printf("%d", new_prd);
 			if(new_prd>999){
 				cmd->prd = 999;
-				printf("solo se pueden valoreas menores de 999, se toma 999 como intervalo\n");
-
+				jtaguart_disp_msg_v1(JTAG_UART_BASE, cmd);
 			} else{
 				cmd->prd = new_prd;
+				jtaguart_disp_msg_v1(JTAG_UART_BASE, cmd);
 			}
 			btn_clear(btn_base); //clear edge-capture reg
 

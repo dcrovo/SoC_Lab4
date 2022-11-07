@@ -46,15 +46,16 @@ void sw_get_command_v1(alt_u32 btn_base, alt_32 sw_base, cmd_type *cmd, alt_u32 
 			//printf("%s", "1 preessed\n");
 		}
 		if (btn & 0x04){ //btn 1 pressed
-			int new_prd;
+			cmd->prd = pio_read(sw_base) & 0x03FF; // load new interval
 			printf("%s", "Type new interval");
-			scanf("%d", &new_prd);
+			int new_prd = jtaguart_rd_wspace(jtag_base);
+			printf("%d", new_prd);
 			if(new_prd>999){
 				cmd->prd = 999;
-				printf("solo se pueden valoreas menores de 999, se toma 999 como intervalo\n");
-
+				jtaguart_disp_msg_v1(jtag_base, cmd);
 			} else{
 				cmd->prd = new_prd;
+				jtaguart_disp_msg_v1(jtag_base, cmd);
 			}
 			btn_clear(btn_base); //clear edge-capture reg
 

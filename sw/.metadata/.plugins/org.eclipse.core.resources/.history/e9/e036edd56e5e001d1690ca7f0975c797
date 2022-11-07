@@ -51,8 +51,6 @@ void sw_get_command_v1(alt_u32 btn_base, alt_32 sw_base, cmd_type *cmd, alt_u32 
 			scanf("%d", &new_prd);
 			if(new_prd>999){
 				cmd->prd = 999;
-				printf("solo se pueden valoreas menores de 999, se toma 999 como intervalo\n");
-
 			} else{
 				cmd->prd = new_prd;
 			}
